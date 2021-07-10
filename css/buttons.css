@@ -1,0 +1,111 @@
+.btns-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn {
+    display: inline-flex;
+    vertical-align: top;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.23;
+    padding: 13px 18px;
+    border-radius: 2px;
+    font-family: var(--heading-font-family);
+    transition: all 0.3s;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.btn--light-blue {
+    background: var(--light-blue-color);
+    color: var(--blue-color);
+}
+
+.btn--blue {
+    background: var(--blue-color-darker-10);
+    color: var(--white-color);
+    box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+}
+
+.btn--blue:hover {
+    color: var(--white-color);
+    box-shadow: 0px 5px 10px rgba(188, 199, 255, 1);
+}
+
+.btn--red {
+    background: var(--light-red-color);
+    color: var(--red-color);
+}
+
+.btn--red:hover {
+    color: var(--red-color);
+}
+
+.btn--bordered {
+    border: 1px solid var(--gray-color);
+    color: var(--gray-color-darker-10);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.btn--transparent {
+    color: var(--gray-color-darker-10);
+}
+
+.btn--transparent:hover {
+    box-shadow: none;
+}
+
+.btn--x-padding-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn--grey {
+    background: var(--btn-grey-bg);
+    color: var(--btn-grey-color);
+}
+
+.btn--red:hover {
+    color: var(--red-color);
+}
+
+.btn--red:hover {
+    color: var(--red-color);
+}
+
+.btn__icon {
+    margin-left: 6px;
+}
+
+.btn--white {
+    background: var(--white-color);
+    color: var(--btn-grey-color);
+}
+
+.btn--white-bordered {
+    border: 1px solid var(--btn-white-bordered-border);
+    color: var(--btn-white-bordered-color);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.btn--white-bordered:hover {
+    border-color: var(--white-color);
+    color: var(--white-color);
+}
+
+.btn--large {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    min-width: 184px;
+    border-radius: 5px;
+}

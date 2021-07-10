@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    color: var(--base-text-color);
+    background: var(--white-color);
+    font: var(--base-font-size)/var(--base-line-height) var(--base-font-family);
+    min-width: 320px;
+    overflow-y: scroll;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:none;
+    -webkit-font-smoothing:antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: var(--base-link-color);
+    outline: none;
+}
+
+a:hover {
+    color: var(--muted-blue-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

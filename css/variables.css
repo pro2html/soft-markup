@@ -1,0 +1,39 @@
+:root {
+    /* colors */
+    --base-text-color: #8D96BD;
+    --base-link-color: #697CA6;
+    --blue-color: #3A79FF;
+    --blue-color-darker-10: #4074F8;
+    --muted-blue-color: #5E81FE;
+    --dark-blue-color: #3D4F9F;
+    --light-blue-color: #D2E1FF;
+    --gray-color: #D1D6E3;
+    --gray-color-darker-5: #D8E3FE;
+    --gray-color-darker-10: #ADB4D2;
+    --gray-color-lighter-10: #DAE4FE;
+    --gray-color-lighter-20: #FCFDFF;
+    --light-gray-color: #F5F8FF;
+    --light-gray-color-10: #F1F5FF;
+    --white-color: #fff;
+    --black-color: #495274;
+    --red-color: #D43F3F;
+    --light-red-color: #FFD7D7;
+    --shadow-color: #EFF4FF;
+    
+    /* buttons */
+    --btn-grey-bg: #E8ECF4;
+    --btn-grey-color: #7382A3;
+    --btn-white-bordered-border: #A0B4FF;
+    --btn-white-bordered-color: #C7D3FF;
+    
+    /* form */
+    --input-bg: #EFEFF7;
+    --input-placeholder-color: #7A85AD;
+    
+    /* fonts */
+    --base-font-size: 15px;
+    --base-line-height: 1.86;
+    --base-font-family: 'Roboto', sans-serif;
+    --heading-font-family: 'Quicksand', sans-serif;
+    --features-font-family: 'Open Sans', sans-serif;
+}
